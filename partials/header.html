@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div id="header">
-        <script>
-            fetch('partials/header.html')
-            .then(response => response.text())
-            .then(data =>{
-                document.getElementById('header').innerHTML = data;
-            });
-        </script>
-    </div>
-</body>
-</html>
+<header>
+  <div class="container">
+    <img src="images/mylogo.png" alt="sommynice-logo" />
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../services.html">Services</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</header>

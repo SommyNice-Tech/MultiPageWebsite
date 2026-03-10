@@ -8,32 +8,23 @@
   </head>
   <body>
     <!-- Header section -->
-    <header>
-      <div class="container">
-        <img src="images/mylogo.png" alt="sommynice-logo" />
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="services.html">Services</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-    </header>
+    <div id="header"></div>
     <!-- main content -->
     <main>
       <div class="content">
         <div>
           <h1>Welcome to My Website</h1>
           <p>This is the home page of multi-page website project</p>
-          I am learning how to structure multiple pages using pure HTML and CSS.
+          I am learning how to structure multiple pages using pure HTML, CSS,
+          and little JavaScript.
         </div>
         <img src="images/mylogo2.png" alt="my logo" />
       </div>
     </main>
-
+    <!-- grid section  -->
     <section>
       <div class="grid-section">
-        <div>
+        <div class="grid">
           <h2>HTML</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
@@ -42,7 +33,7 @@
             voluptatum eum cupiditate assumenda?
           </p>
         </div>
-        <div>
+        <div class="grid">
           <h2>CSS</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
@@ -51,8 +42,8 @@
             voluptatum eum cupiditate assumenda?
           </p>
         </div>
-        <div>
-          <h2>Progressing</h2>
+        <div class="grid">
+          <h2>JavaScript</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
             alias a est voluptatem repellendus magni tempora officiis non
@@ -64,6 +55,9 @@
     </section>
 
     <!-- footer section -->
-    <footer>Copyrite &copy; 2026 SommyNice</footer>
+    <div id="footer"></div>
+
+   
+    <script src="js/loadePartials.js"></script>
   </body>
 </html>
