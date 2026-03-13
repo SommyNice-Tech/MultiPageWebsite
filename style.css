@@ -51,20 +51,22 @@ main .content {
   align-items: center;
 }
 
-.grid-section {
-  margin: 20px auto;
-  padding: 0 40px;
-  display: grid;
-  grid-gap: 30px;
+.flex-box h2{
+  text-align: center;
+  margin-bottom: 5px;
+  color: rgb(63, 5, 5);
+}
+.flex-box{
+  display: flex;
   justify-content: space-between;
-  grid-template-columns: repeat(3, 1fr);
 }
 
-.grid {
-  padding-top: 10px;
-  text-align: center;
-  background: #00bfff;
-  border: #333 1px solid;
-  border-radius: 20px;
-  box-shadow:;
+.box{
+  flex: 1;
+  background: #2a73f2;
+  color:#fff;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+  padding: 15px 20px;
 }
