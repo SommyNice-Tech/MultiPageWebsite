@@ -55,7 +55,7 @@ main .content {
   text-align: center;
   margin-bottom: 5px;
   color: rgb(89, 7, 64);
-  font-weight: bolder;
+  font-weight: 600;
 }
 .flex-box {
   display: flex;
@@ -85,12 +85,11 @@ section .about-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
- 
 }
 .about {
   flex: 1;
   margin-top: 94px;
-  padding: 56px ;
+  padding: 56px;
 }
 
 .about h2 {
@@ -103,4 +102,38 @@ section .about-section {
 .about p {
   line-height: 1.5em;
   font-size: 19px;
+}
+
+/* -------services section--------- */
+.services-section {
+  margin-top: 20px;
+  padding-left: 10px;
+  /* text-align: center; */
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-box .item {
+ /* background: dodgerblue; */
+  /* border: 1px solid black; */
+  padding: 10px;
+  text-align: center;
+}
+.service h2{
+  text-align: center;
+  margin: 50px 0 10px;
+  color: #0974f1;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.service p{
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
