@@ -64,7 +64,7 @@ main .content {
 
 .box {
   flex: 1;
-  background: #2a73f2;
+  background: dodgerblue;
   color: #fff;
   border-radius: 10px;
   margin: 50px 10px;
@@ -95,7 +95,7 @@ section .about-section {
 .about h2 {
   margin-bottom: 15px;
   font-size: 30px;
-  color: #2a73f2;
+  color: dodgerblue;
   font-weight: 200;
 }
 
@@ -124,10 +124,19 @@ section .about-section {
   padding: 10px;
   text-align: center;
 }
+
+.item p{
+  margin-bottom: 18px;
+}
+
+.item i{
+  color: dodgerblue;
+  font-size: 35px;
+}
 .service h2{
   text-align: center;
   margin: 50px 0 10px;
-  color: #0974f1;
+  color: dodgerblue;
   font-weight: 600;
   font-size: 30px;
 }
@@ -136,4 +145,16 @@ section .about-section {
   text-align: center;
   margin-bottom: 15px;
   font-size: 18px;
+}
+
+.services-section button{
+  background: dodgerblue;
+  padding: 15px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn{
+  text-align: center;
 }
